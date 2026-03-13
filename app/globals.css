@@ -1,26 +1,113 @@
 @import "tailwindcss";
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
-}
-
+/* ===== Custom Theme Tokens ===== */
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+
+  /* Alice-style academic palette */
+  --color-alice-bg: #F5F5F5;
+  --color-alice-text: #2C2C2C;
+  --color-alice-gray: #666666;
+  --color-alice-light-gray: #999999;
+
+  /* EC'26 accent — deep teal + muted purple */
+  --color-accent: #273b3b;
+  --color-accent-mid: #4c8888;
+  --color-accent-soft: #86768a;
+
+  /* Font stacks */
+  --font-serif: 'Noto Serif SC', Georgia, 'Times New Roman', serif;
+  --font-sans: 'Inter', 'Noto Sans SC', system-ui, -apple-system, sans-serif;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+/* ===== Light Mode ===== */
+:root {
+  --background: #F5F5F5;
+  --foreground: #2C2C2C;
+  color-scheme: light;
 }
 
+/* ===== Dark Mode ===== */
+.dark {
+  --background: #111114;
+  --foreground: #e4e4e7;
+  color-scheme: dark;
+}
+
+/* ===== Base ===== */
 body {
   background: var(--background);
   color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: 'Inter', 'Noto Sans SC', system-ui, -apple-system, sans-serif;
+}
+
+/* Subtle dot-pattern background texture (Alice-style) */
+body::before {
+  content: '';
+  position: fixed;
+  inset: 0;
+  pointer-events: none;
+  z-index: -1;
+  opacity: 0.4;
+  background-image: radial-gradient(circle, #d4d4d4 1px, transparent 1px);
+  background-size: 24px 24px;
+}
+
+.dark body::before {
+  opacity: 0.08;
+  background-image: radial-gradient(circle, #555 1px, transparent 1px);
+}
+
+/* ===== Typography ===== */
+h1, h2, h3, h4 {
+  font-family: 'Noto Serif SC', Georgia, serif;
+}
+
+/* ===== Hero Banner (EC'26 inspired) ===== */
+.hero-banner {
+  background: linear-gradient(135deg, #273b3b 0%, #1a2e2e 40%, #2a3a4a 100%);
+  position: relative;
+  overflow: hidden;
+}
+
+.hero-banner::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background:
+    radial-gradient(ellipse at 30% 50%, rgba(76, 136, 136, 0.15) 0%, transparent 60%),
+    radial-gradient(ellipse at 70% 30%, rgba(134, 118, 138, 0.1) 0%, transparent 50%);
+  pointer-events: none;
+}
+
+.dark .hero-banner {
+  background: linear-gradient(135deg, #0d1a1a 0%, #111118 40%, #151520 100%);
+}
+
+/* ===== Card Styles ===== */
+.card {
+  background: white;
+  border-radius: 0.75rem;
+  border: 1px solid #e5e5e5;
+  transition: box-shadow 0.3s ease, transform 0.3s ease;
+}
+
+.card:hover {
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.06);
+  transform: translateY(-1px);
+}
+
+.dark .card {
+  background: #1a1a1f;
+  border-color: #2a2a30;
+}
+
+.dark .card:hover {
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+}
+
+/* ===== Smooth scroll ===== */
+html {
+  scroll-behavior: smooth;
 }
