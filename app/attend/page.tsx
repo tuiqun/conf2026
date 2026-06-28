@@ -1,6 +1,7 @@
 "use client";
 
 import { useLanguage } from "@/lib/language-context";
+import VenueMap from "@/components/VenueMap";
 
 export default function AttendPage() {
   const { t } = useLanguage();
@@ -46,7 +47,12 @@ export default function AttendPage() {
           <p className="text-base font-medium text-[#273b3b] dark:text-[#4c8888] font-serif">
             {t.attend.location_content}
           </p>
+          <p className="text-sm text-[#666] dark:text-gray-400 mt-1">
+            {t.attend.location_address}
+          </p>
         </div>
+
+        <VenueMap />
       </div>
     </div>
   );

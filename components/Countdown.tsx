@@ -5,7 +5,7 @@ import { useLanguage } from "@/lib/language-context";
 
 export default function Countdown() {
   const { t } = useLanguage();
-  const targetDate = new Date("2025-07-26T00:00:00+08:00").getTime();
+  const targetDate = new Date("2026-07-18T00:00:00+08:00").getTime();
 
   const [timeLeft, setTimeLeft] = useState({
     days: 0,

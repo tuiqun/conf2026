@@ -18,8 +18,8 @@ export const translations = {
     home: {
       subtitle: "Tuiqun Universe In Quaint Ultimate Non-summit",
       tagline: "一个非正式的、不完全围绕学术的交流活动",
-      date: "日期待定",
-      location: "地点待定",
+      date: "2026年7月18-19日",
+      location: "北京",
       cta_submit: "提交投稿",
       cta_learn: "了解更多",
       upcoming: "即将举行",
@@ -46,7 +46,7 @@ export const translations = {
       key_date_notification: "审核结果通知",
       key_date_notification_value: "提交后 2-3 日内",
       key_date_conference: "会议日期",
-      key_date_conference_value: "待定",
+      key_date_conference_value: "2026年7月18-19日",
       browse_archive: "浏览归档",
       about_us: "关于我们",
     },
@@ -63,8 +63,8 @@ export const translations = {
       audience_content:
         "TUIQUN 面向包括但不限于退群成员、现役或退役算法竞赛选手在内的各位朋友。无论您来自哪个领域，只要有想法、有热情，我们都欢迎您的参与！",
       contact_title: "联系我们",
-      contact_content: "欢迎加入 TUIQUN 2026 筹委会群",
-      contact_qq: "QQ 群号：待定",
+      contact_content: "欢迎加入 TUIQUN 2026 筹委会群！",
+      contact_qq: "QQ 群号：1022148294",
     },
     // Submit
     submit: {
@@ -131,7 +131,7 @@ export const translations = {
       date_notification: "录用通知",
       date_notification_value: "提交后 2–3 日内",
       date_conference: "会议日期",
-      date_conference_value: "待定",
+      date_conference_value: "2026年7月18-19日",
       contact_title: "联系方式",
       contact_content: "如有任何问题，欢迎联系 TUIQUN 2026 筹委会。",
     },
@@ -170,8 +170,8 @@ export const translations = {
     schedule: {
       title: "会议日程",
       tba: "TUIQUN 2026 的日程安排将在后续公布，敬请期待。",
-      date_day1: "第一天：待定",
-      date_day2: "第二天：待定",
+      date_day1: "第一天：2026年7月18日",
+      date_day2: "第二天：2026年7月19日",
       activities: "除学术报告外，我们还计划组织聚餐、旅游等丰富多彩的活动。",
     },
     // Attend
@@ -182,12 +182,17 @@ export const translations = {
         "TUIQUN 2026 的参会方式将在后续公布，敬请关注。",
       onsite_title: "线下参会",
       onsite_content:
-        "我们欢迎各位在线下参会。会议地点待定，具体信息将在后续通知。在报告之余，我们还计划组织聚餐、旅游等丰富多彩的活动。",
+        "我们欢迎各位前往北京线下参会。在报告之余，我们还计划组织聚餐、旅游等丰富多彩的活动。",
       online_title: "线上参会",
       online_content:
         "若您因为各种原因无法来到现场参会，我们也会提供腾讯会议等方式供您线上参会。",
       location_title: "会议地点",
-      location_content: "待定",
+      location_content: "等同 Timeless 咖啡",
+      location_address: "北京市海淀区中关村东路16号院龙湖唐宁ONE 2号楼A座101室地下一层",
+      map_title: "场地地图",
+      map_loading: "地图加载中…",
+      map_error: "地图加载失败",
+      map_open_amap: "在高德地图中打开",
     },
     // Archive
     archive: {
@@ -239,8 +244,8 @@ export const translations = {
     home: {
       subtitle: "Tuiqun Universe In Quaint Ultimate Non-summit",
       tagline: "An informal, not-entirely-academic exchange event",
-      date: "Date TBD",
-      location: "Location TBD",
+      date: "July 18–19, 2026",
+      location: "Beijing",
       cta_submit: "Submit",
       cta_learn: "Learn More",
       upcoming: "Upcoming",
@@ -267,7 +272,7 @@ export const translations = {
       key_date_notification: "Notification",
       key_date_notification_value: "2–3 days after submission",
       key_date_conference: "Conference",
-      key_date_conference_value: "TBD",
+      key_date_conference_value: "July 18–19, 2026",
       browse_archive: "Browse Archive",
       about_us: "About Us",
     },
@@ -283,8 +288,8 @@ export const translations = {
       audience_content:
         "TUIQUN is open to everyone, including but not limited to former group members, active or retired competitive programming contestants, and friends from all walks of life. Regardless of your field, as long as you have ideas and passion, you are welcome to participate!",
       contact_title: "Contact Us",
-      contact_content: "Join the TUIQUN 2026 Organizing Committee group",
-      contact_qq: "QQ Group: TBD",
+      contact_content: "Join the TUIQUN 2026 Organizing Committee group!",
+      contact_qq: "QQ Group: 1022148294",
     },
     submit: {
       title: "Submission Guide",
@@ -350,7 +355,7 @@ export const translations = {
       date_notification: "Notification of Acceptance",
       date_notification_value: "2–3 days after submission",
       date_conference: "Conference Date",
-      date_conference_value: "TBD",
+      date_conference_value: "July 18–19, 2026",
       contact_title: "Contact",
       contact_content: "For any questions, please contact the TUIQUN 2026 Organizing Committee.",
     },
@@ -388,8 +393,8 @@ export const translations = {
     schedule: {
       title: "Schedule",
       tba: "The schedule for TUIQUN 2026 will be announced later. Stay tuned!",
-      date_day1: "Day 1: TBD",
-      date_day2: "Day 2: TBD",
+      date_day1: "Day 1: July 18, 2026",
+      date_day2: "Day 2: July 19, 2026",
       activities: "In addition to academic talks, we plan to organize dinners, sightseeing, and other exciting activities.",
     },
     attend: {
@@ -399,12 +404,17 @@ export const translations = {
         "Attendance details for TUIQUN 2026 will be announced later. Stay tuned.",
       onsite_title: "In-Person Attendance",
       onsite_content:
-        "We welcome everyone to attend in person. The venue is to be determined. Besides talks, we also plan to organize dinners, sightseeing, and other exciting activities.",
+        "We welcome everyone to attend in person in Beijing. Besides talks, we also plan to organize dinners, sightseeing, and other exciting activities.",
       online_title: "Online Attendance",
       online_content:
         "If you are unable to attend in person, we will also provide online access via Tencent Meeting and other platforms.",
       location_title: "Venue",
-      location_content: "TBD",
+      location_content: "Timeless Coffee (等同 Timeless)",
+      location_address: "B1, 101, Building A, Tower 2, Longfor TangNing ONE, No. 16 Zhongguancun East Road, Haidian District, Beijing",
+      map_title: "Venue Map",
+      map_loading: "Loading map…",
+      map_error: "Failed to load map",
+      map_open_amap: "Open in Amap",
     },
     archive: {
       title: "Archive",
