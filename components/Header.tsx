@@ -1,6 +1,5 @@
 "use client";
 
-import Link from "next/link";
 import { useLanguage } from "@/lib/language-context";
 import { useTheme } from "@/lib/theme-context";
 import { useState } from "react";
@@ -36,23 +35,23 @@ export default function Header() {
     <header className="sticky top-0 z-50 border-b border-gray-200 dark:border-gray-800 bg-[#F5F5F5]/95 dark:bg-[#111114]/95 backdrop-blur-sm">
       <div className="max-w-5xl mx-auto px-4 sm:px-6">
         <div className="flex items-center justify-between h-14">
-          <Link
+          <a
             href="/"
             className="font-serif text-lg font-bold tracking-tight text-[#2C2C2C] dark:text-gray-100"
           >
             TUIQUN
-          </Link>
+          </a>
 
           {/* Desktop nav */}
           <nav className="hidden md:flex items-center gap-1">
             {navLinks.slice(0, 2).map((link) => (
-              <Link
+              <a
                 key={link.href}
                 href={link.href}
                 className="px-3 py-1.5 text-sm text-[#666] dark:text-gray-400 hover:text-[#2C2C2C] dark:hover:text-gray-100 transition-colors"
               >
                 {link.label}
-              </Link>
+              </a>
             ))}
 
             {/* Calls dropdown */}
@@ -66,26 +65,26 @@ export default function Header() {
               <div className="absolute top-full left-0 pt-1 invisible group-hover:visible opacity-0 group-hover:opacity-100 transition-all duration-150">
                 <div className="bg-white dark:bg-[#1a1a1f] border border-gray-200 dark:border-gray-700 rounded-md shadow-lg py-1 min-w-[160px]">
                   {callsDropdown.map((item) => (
-                    <Link
+                    <a
                       key={item.href}
                       href={item.href}
                       className="block px-4 py-2 text-sm text-[#666] dark:text-gray-400 hover:text-[#2C2C2C] dark:hover:text-gray-100 hover:bg-[#F5F5F5] dark:hover:bg-[#111114] transition-colors"
                     >
                       {item.label}
-                    </Link>
+                    </a>
                   ))}
                 </div>
               </div>
             </div>
 
             {navLinks.slice(2).map((link) => (
-              <Link
+              <a
                 key={link.href}
                 href={link.href}
                 className="px-3 py-1.5 text-sm text-[#666] dark:text-gray-400 hover:text-[#2C2C2C] dark:hover:text-gray-100 transition-colors"
               >
                 {link.label}
-              </Link>
+              </a>
             ))}
           </nav>
 
@@ -125,38 +124,38 @@ export default function Header() {
           <div className="md:hidden py-3 border-t border-gray-200 dark:border-gray-800">
             <nav className="flex flex-col gap-0.5">
               {navLinks.slice(0, 2).map((link) => (
-                <Link
+                <a
                   key={link.href}
                   href={link.href}
                   className="px-3 py-2 text-sm text-[#666] dark:text-gray-400 hover:text-[#2C2C2C] dark:hover:text-gray-100 transition-colors"
                   onClick={() => setMenuOpen(false)}
                 >
                   {link.label}
-                </Link>
+                </a>
               ))}
               {/* Calls sub-items */}
               <span className="px-3 py-2 text-xs font-medium text-[#999] dark:text-gray-500 uppercase tracking-wider">
                 {t.nav.calls}
               </span>
               {callsDropdown.map((item) => (
-                <Link
+                <a
                   key={item.href}
                   href={item.href}
                   className="px-6 py-2 text-sm text-[#666] dark:text-gray-400 hover:text-[#2C2C2C] dark:hover:text-gray-100 transition-colors"
                   onClick={() => setMenuOpen(false)}
                 >
                   {item.label}
-                </Link>
+                </a>
               ))}
               {navLinks.slice(2).map((link) => (
-                <Link
+                <a
                   key={link.href}
                   href={link.href}
                   className="px-3 py-2 text-sm text-[#666] dark:text-gray-400 hover:text-[#2C2C2C] dark:hover:text-gray-100 transition-colors"
                   onClick={() => setMenuOpen(false)}
                 >
                   {link.label}
-                </Link>
+                </a>
               ))}
             </nav>
             <div className="flex items-center gap-2 mt-3 px-3">
