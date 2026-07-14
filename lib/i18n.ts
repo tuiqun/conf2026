@@ -39,7 +39,7 @@ export const translations = {
         "报告之余，还有聚餐、旅游等丰富多彩的社交活动",
       highlight_hybrid_title: "线上线下",
       highlight_hybrid_desc:
-        "推荐线下参会，也支持通过腾讯会议等方式线上参与",
+        "推荐线下参会，也支持通过 Bilibili 直播等方式线上参与",
       key_dates_title: "重要日期",
       key_date_deadline: "投稿截止",
       key_date_deadline_value: "7 月 12 日 (AoE)",
@@ -233,15 +233,14 @@ export const translations = {
     // Attend
     attend: {
       title: "参会指南",
-      register_title: "如何参会？",
-      register_content:
-        "TUIQUN 2026 的参会方式将在后续公布，敬请关注。",
       onsite_title: "线下参会",
       onsite_content:
-        "我们欢迎各位前往北京线下参会。在报告之余，我们还计划组织聚餐、旅游等丰富多彩的活动。",
+        "我们欢迎各位前往北京线下参会。在报告之余，我们还计划组织聚餐、旅游等丰富多彩的活动。我们将在稍后更新线下参会指南。",
       online_title: "线上参会",
       online_content:
-        "若您因为各种原因无法来到现场参会，我们也会提供腾讯会议等方式供您线上参会。",
+        "您可以通过下方二维码或 Bilibili 直播间链接观看会议直播。",
+      online_link_label: "打开 Bilibili 直播间",
+      online_qr_alt: "Bilibili 直播间二维码",
       location_title: "会议地点",
       location_content: "等同 Timeless 咖啡",
       location_address: "北京市海淀区中关村东路16号院龙湖唐宁ONE 2号楼A座101室地下一层",
@@ -321,7 +320,7 @@ export const translations = {
         "Beyond talks — enjoy dinners, sightseeing, and social events",
       highlight_hybrid_title: "Hybrid Event",
       highlight_hybrid_desc:
-        "In-person attendance recommended; online participation via Tencent Meeting also available",
+        "In-person attendance recommended; online participation via Bilibili Live also available",
       key_dates_title: "Key Dates",
       key_date_deadline: "Submission Deadline",
       key_date_deadline_value: "July 12 (AoE)",
@@ -511,15 +510,14 @@ export const translations = {
     },
     attend: {
       title: "Attendance Guide",
-      register_title: "How to Attend?",
-      register_content:
-        "Attendance details for TUIQUN 2026 will be announced later. Stay tuned.",
       onsite_title: "In-Person Attendance",
       onsite_content:
-        "We welcome everyone to attend in person in Beijing. Besides talks, we also plan to organize dinners, sightseeing, and other exciting activities.",
+        "We welcome everyone to attend in person in Beijing. Besides talks, we also plan to organize dinners, sightseeing, and other exciting activities. In-person attendance guidelines will be updated later.",
       online_title: "Online Attendance",
       online_content:
-        "If you are unable to attend in person, we will also provide online access via Tencent Meeting and other platforms.",
+        "You can watch the conference live through the QR code below or the Bilibili live room link.",
+      online_link_label: "Open Bilibili Live Room",
+      online_qr_alt: "Bilibili live room QR code",
       location_title: "Venue",
       location_content: "Timeless Coffee (等同 Timeless)",
       location_address: "B1, 101, Building A, Tower 2, Longfor TangNing ONE, No. 16 Zhongguancun East Road, Haidian District, Beijing",
