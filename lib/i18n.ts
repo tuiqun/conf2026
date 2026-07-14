@@ -169,10 +169,66 @@ export const translations = {
     // Schedule
     schedule: {
       title: "会议日程",
-      tba: "TUIQUN 2026 的日程安排将在后续公布，敬请期待。",
-      date_day1: "第一天：2026年7月18日",
-      date_day2: "第二天：2026年7月19日",
-      activities: "除学术报告外，我们还计划组织聚餐、旅游等丰富多彩的活动。",
+      date: "2026年7月18日（星期六）",
+      timezone: "以下时间均为北京时间（UTC+8）。",
+      timeLabel: "时间",
+      contentLabel: "内容",
+      speakerLabel: "主持人/讲者",
+      items: [
+        { time: "13:30-14:00", title: "签到", speaker: "/" },
+        { time: "14:00-14:05", title: "开幕式", speaker: "StudyingFather" },
+        {
+          time: "14:05-14:35",
+          title: "Hull 和 WAAP：WASM Judge 的应用",
+          speaker: "Aberter0x3F",
+        },
+        {
+          time: "14:35-14:50",
+          title:
+            "浅谈“非常规”赛站的技术运维：如何用技术防火墙隔离非技术风险",
+          speaker: "CSL&panda_twingy",
+        },
+        {
+          time: "14:50-15:05",
+          title:
+            "Pay for The Second-Best Service: A Game-Theoretic Approach Against Dishonest LLM Providers",
+          speaker: "teafrogsf",
+        },
+        {
+          time: "15:05-15:20",
+          title: "Lossy Compression for Scientific Data",
+          speaker: "Karshilov",
+        },
+        { time: "15:20-15:30", title: "休息/合影", speaker: "/" },
+        {
+          time: "15:30-16:00",
+          title: "速通 Linux 内核实践",
+          speaker: "Wang Huai",
+        },
+        {
+          time: "16:00-16:15",
+          title:
+            "Tunneling through the Hill: Multi-way Intersection for Version-Space Algebras in Program Synthesis",
+          speaker: "StudyingFather",
+        },
+        {
+          time: "16:15-16:45",
+          title:
+            "Order from Divergence - Mastering Large-Scale Computation with Minimal Time Complexity Constants",
+          speaker: "Maxmilite&yizr_cnyali",
+        },
+        {
+          time: "16:45-17:00",
+          title: "BenchEvolver - Frontier Task via Solution-Centric Evolution",
+          speaker: "nike0good",
+        },
+        {
+          time: "17:00-17:15",
+          title: "Agents' Last Exam",
+          speaker: "teafrogsf",
+        },
+        { time: "17:15-18:00", title: "自由交流/晚餐", speaker: "/" },
+      ],
     },
     // Attend
     attend: {
@@ -392,10 +448,66 @@ export const translations = {
     },
     schedule: {
       title: "Schedule",
-      tba: "The schedule for TUIQUN 2026 will be announced later. Stay tuned!",
-      date_day1: "Day 1: July 18, 2026",
-      date_day2: "Day 2: July 19, 2026",
-      activities: "In addition to academic talks, we plan to organize dinners, sightseeing, and other exciting activities.",
+      date: "Saturday, July 18, 2026",
+      timezone: "All times are Beijing Time (UTC+8).",
+      timeLabel: "Time",
+      contentLabel: "Session",
+      speakerLabel: "Host/Speaker",
+      items: [
+        { time: "13:30-14:00", title: "Check-in", speaker: "/" },
+        { time: "14:00-14:05", title: "Opening", speaker: "StudyingFather" },
+        {
+          time: "14:05-14:35",
+          title: "Hull and WAAP: Applications of WASM Judge",
+          speaker: "Aberter0x3F",
+        },
+        {
+          time: "14:35-14:50",
+          title:
+            "Technical Operations for Unconventional Contest Sites: Isolating Non-Technical Risks with Technical Firewalls",
+          speaker: "CSL&panda_twingy",
+        },
+        {
+          time: "14:50-15:05",
+          title:
+            "Pay for The Second-Best Service: A Game-Theoretic Approach Against Dishonest LLM Providers",
+          speaker: "teafrogsf",
+        },
+        {
+          time: "15:05-15:20",
+          title: "Lossy Compression for Scientific Data",
+          speaker: "Karshilov",
+        },
+        { time: "15:20-15:30", title: "Break / Group Photo", speaker: "/" },
+        {
+          time: "15:30-16:00",
+          title: "A Fast Tour of Linux Kernel Practice",
+          speaker: "Wang Huai",
+        },
+        {
+          time: "16:00-16:15",
+          title:
+            "Tunneling through the Hill: Multi-way Intersection for Version-Space Algebras in Program Synthesis",
+          speaker: "StudyingFather",
+        },
+        {
+          time: "16:15-16:45",
+          title:
+            "Order from Divergence - Mastering Large-Scale Computation with Minimal Time Complexity Constants",
+          speaker: "Maxmilite&yizr_cnyali",
+        },
+        {
+          time: "16:45-17:00",
+          title: "BenchEvolver - Frontier Task via Solution-Centric Evolution",
+          speaker: "nike0good",
+        },
+        {
+          time: "17:00-17:15",
+          title: "Agents' Last Exam",
+          speaker: "teafrogsf",
+        },
+        { time: "17:15-18:00", title: "Open Discussion / Dinner", speaker: "/" },
+      ],
     },
     attend: {
       title: "Attendance Guide",
