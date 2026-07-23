@@ -174,6 +174,7 @@ export const translations = {
       timeLabel: "时间",
       contentLabel: "内容",
       speakerLabel: "主持人/讲者",
+      resourcesLabel: "资料",
       items: [
         { time: "13:30-14:00", title: "签到", speaker: "/" },
         { time: "14:00-14:05", title: "开幕式", speaker: "StudyingFather" },
@@ -452,6 +453,7 @@ export const translations = {
       timeLabel: "Time",
       contentLabel: "Session",
       speakerLabel: "Host/Speaker",
+      resourcesLabel: "Resources",
       items: [
         { time: "13:30-14:00", title: "Check-in", speaker: "/" },
         { time: "14:00-14:05", title: "Opening", speaker: "StudyingFather" },
